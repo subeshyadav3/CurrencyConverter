@@ -1,0 +1,111 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+body{
+	background-color: #f4e4ba;
+
+}
+.container{
+	width: 30vw;
+	height: 60vh;
+	background-color: white;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	margin-top: 100px;
+	min-width: 400px;
+	font-size: 2rem;
+	font-family:sans-serif ;
+	border-radius: 10px;
+	box-shadow: 5px 5px 50px red;
+	flex-wrap: nowrap;
+}
+
+.container div{
+	width: 100%;
+/*	height: 20vh ;*/
+	background-color:rgb(227,255,255) ;
+	margin: 3px 3px ;
+	border-radius: 10px;
+}
+
+.heading{
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-shadow: 2px 2px 8px ;
+
+}
+.heading:hover{
+	zoom:1.1;
+}
+.middle{
+/*	height: 35vh;*/
+	display: flex;
+	flex-direction: column;
+
+	
+}
+.middle1{
+
+	padding-top: 30px;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+}
+.middle2{
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.bottom{
+	height: 10vh;
+}
+.from,.to{
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+/*	align-items: center;*/
+	height: 50px;
+}
+
+#from img,#from select,#to img,#to select{
+	height: 100%;
+	padding: 2px;
+
+}
+.middleIMG{
+/*	height: 50px;*/
+}
+.bottom{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.bottom button{
+	font-size: 2rem;
+	border-radius: 5px;
+	padding: 2px	;
+	background-color: inherit;
+}
+#input{
+	height: 5vh;
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background-color: inherit;
+}
